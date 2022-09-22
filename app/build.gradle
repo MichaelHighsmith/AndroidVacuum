@@ -24,6 +24,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes('Lint-Registry-v2': 'com.accenture.michaelhighsmith.lint_rules.CustomLintRegistry')
+        attributes('Lint-Registry-v2': 'com.accenture.michaelhighsmith.androidvacuum.CustomLintRegistry')
     }
 }
