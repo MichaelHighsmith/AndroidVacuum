@@ -10,7 +10,6 @@ java {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.5.1'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
@@ -24,6 +23,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes('Lint-Registry-v2': 'com.accenture.michaelhighsmith.androidvacuum.CustomLintRegistry')
+        attributes('Lint-Registry-v2': 'com.accenture.michaelhighsmith.androidvacuum.LintRegistry')
     }
 }
