@@ -6,4 +6,10 @@ public class TestCase {
         return "Hello world";
     }
 
+    String testVariable = "hello there";
+
+    private void printString() {
+        System.out.println(testVariable);
+    }
+
 }
